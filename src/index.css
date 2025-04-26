@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: "Encode Sans", sans-serif;
+}
+.center {
+  @apply flex items-center justify-center
+}
+.active {
+  @apply text-secend-color
+}
